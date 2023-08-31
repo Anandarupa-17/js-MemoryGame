@@ -60,7 +60,7 @@ function shuffleCards() {
         let datas= card.querySelector("data-crystal");
         datas = arr[i];
         let imgTag = card.querySelector(".back-view img");
-        imgTag.src = `./dog${arr[i]}.png`;
+        imgTag.src = `dog${arr[i]}.png`;
         card.addEventListener("click", clicking);
     });
 }
