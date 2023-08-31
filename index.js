@@ -43,11 +43,10 @@ function cardMatch(card1, card2){
         if(match == 8)
         {
             setTimeout(function(){
-                alert(match);
                 shuffleCards();
             }, 400);
-            clicking(0);
         }
+        clicking(0);
     }
     
 }
@@ -60,7 +59,7 @@ function shuffleCards() {
         let datas= card.querySelector("data-crystal");
         datas = arr[i];
         let imgTag = card.querySelector(".back-view img");
-        imgTag.src = `dog${arr[i]}.png`;
+        imgTag.src = `./dog${arr[i]}.png`;
         card.addEventListener("click", clicking);
     });
 }
