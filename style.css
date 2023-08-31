@@ -116,15 +116,7 @@
       justify-content: center;
     }
 }
-/*@Media(min-width:319px) and (max-width:480px){
-  .wrapper{
-    justify-content: center;
-  }
-  .cards{
-    justify-content: space-between;
-    align-items: center;
-  }
-}*/
+
 
 img{
   background-color: black;
