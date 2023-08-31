@@ -10,7 +10,6 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #6563FF;
   }
   .gradient-background {
     background: linear-gradient(300deg, #30A2FF, #00C4FF, #FFE7A0);
